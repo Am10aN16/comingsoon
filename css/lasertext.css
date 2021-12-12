@@ -1,18 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
-@font-face {
-  font-family:Abaddon;
-  src: url(../fonts/fast-hand-font/Abaddon.ttf);
-}
-@font-face {
-  font-family:CELTG;
-  src: url(../fonts/fast-hand-font/CELTG___.TTF);
-}
-@font-face {
-  font-family:Aunchanted Bold Regular;
-  src: url(../fonts/Aunchanted.ttf);
-}
+
 .head_text {
-  font-family: 'CELTG' , 'Abaddon' , 'AunchantedBold';
+  font-family: 'Orbitron',sans-serif;
   font-weight: bold;
   font-size: 28px;
   color: #fafafa;
@@ -21,10 +10,13 @@
   color: #757575;
 }
 
-
+@font-face {
+  font-family: Avishkar;
+  src: url(../fonts/fast-hand-font/FastHand-lgBMV.ttf);
+}
 
 h1 {
-  font-family: 'CELTG' , 'Abaddon' , 'AunchantedBold';
+  font-family: Avishkar;
   letter-spacing: 0.18em;
 }
 
@@ -36,6 +28,4 @@ p {
 
 #logo {
     user-select: none;
-    margin: 3px 80px;
-
 }
