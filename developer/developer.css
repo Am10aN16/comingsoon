@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Cardo', serif;
+}
+/* .backimg {
+    background-image:url("5039684.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:top;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+  }  */
+  
+  #particles-js{
+    height: 100vh;
+    display: flex;
+    position: absolute;
+
+  }
+
+.backimg{
+    width: 100%;
+    height: 100vh;
+    background-image: url(5039684.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+}
+
+.profile{
+    width: 400px;
+    background-color: rgba(0,0,0,0.3);
+    padding: 30px 0px;
+    border-radius: 10%;
+}
+
+img{
+    height: 220px;
+    border-radius: 70%;
+    margin-bottom: 25px;
+
+}
+#instagram {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 34px;
+    line-height: 30px;
+    vertical-align: middle;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+    margin-bottom: 15px;
+  }
+  /* #instagram{
+      color: #E4405F;
+  } */
+  #linkedin{
+    color: #0A66C2;
+    background-color: #fff;
+   border-radius: 10px;
+   display: inline-block;
+   line-height: 20px;
+  }
+
+  #fb{
+      color: #1877F2;
+      background-color: #fff;
+   border-radius: 7px;
+   display: inline-block;
+   line-height: 25px;
+   outline-width: 27px;
+  }
+#reddit{
+    color: #FF5700;
+    background-color: #fff;
+    border-radius: 10px;
+    display: inline-block;
+    line-height: 20px;
+}
+.profileText{
+    margin-bottom: 20px;
+}
+.profileText h2{
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+.profileText h3{
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
