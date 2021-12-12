@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display');
 
+@font-face {
+    font-family:Abaddon;
+    src: url(../fonts/fast-hand-font/Abaddon.ttf);
+  }
+  @font-face {
+    font-family:CELTG;
+    src: url(../fonts/fast-hand-font/CELTG___.TTF);
+  }
+  @font-face {
+    font-family:Aunchanted Bold Regular;
+    src: url(../fonts/Aunchanted.ttf);
+  }
+
 body {
     overflow-x: none;
 }
@@ -98,7 +111,7 @@ html,body {
 }
 
 .mylogo {
-    height: 250px;
+    height: 200px;
 }
 
 /* TIMER CSS */
@@ -114,7 +127,7 @@ html,body {
     margin:0 1rem;
     text-align: center;
     border:2px solid #fff;
-    padding:0px 5px;
+    padding:5px 25px;
     border-radius: 12px;
     box-shadow: 0px 2px 10px rgba(0,0,0,0.5);
     box-sizing: border-box;
@@ -201,6 +214,7 @@ header.header h1 {
 }
 
 .glitch-window {
+    font-family: 'CELTG' , ' Abaddon' , ' AunchantedBold';
     position: absolute;
     top: 0;
     left: -2px;
@@ -208,7 +222,7 @@ header.header h1 {
     /* color: #222222; */
     text-shadow: 2px 0 #F9F8F8, -1px 0 yellow, -2px 0 green;
     overflow: hidden;
-    animation: crt-me 2500ms infinite linear alternate-reverse;
+    animation: crt-me 25000ms infinite linear alternate-reverse;
 }
 
 @keyframes crt-me {
@@ -260,12 +274,9 @@ header.header h1 {
 
 @media only screen and (max-width: 600px) and (min-width: 200px) {
 
-    .header {
-        margin-top: 20px;
-    }
 
-    header.header h1 {
-        font-size: 1.8rem;
+    header.header .glitched head_text {
+        font-size: 1.6rem;
         /* color: #222222; */
         text-align: center;
         margin-top: 0;
@@ -279,12 +290,12 @@ header.header h1 {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 1px;
+        margin-top: 15px;
     }
 
     .mylogo {
         height: 80px;
-        margin-top: 5px;
+        /* margin-top: -5px; */
     }
 
 
@@ -325,7 +336,7 @@ header.header h1 {
 
 
 @media only screen and (max-width: 1023px) and (min-width: 768px) {
-    header.header h1 {
+    header.header .glitched head_text {
         font-size: 4.4rem;
         /* color: #222222; */
         text-align: center;
@@ -340,11 +351,22 @@ header.header h1 {
         letter-spacing: 15px;
         /* color: #222222; */
     }
+    .mylogo {
+        height: 90px;
+        /* margin-top: 5px; */
+    }
+
 }
 @media (max-width:992px){
     .countdown-container > div{
       margin:0 1rem;
     }
+
+    .mylogo {
+        height: 80px;
+        /* margin-top: 5px; */
+    }
+
   }
   @media (max-width:767px){
     .countdown-container{
@@ -352,6 +374,11 @@ header.header h1 {
     }
     .countdown-container > div{
       margin:1rem auto;
-      max-width:150px;
+      max-width:100px;
     }
+    .mylogo {
+        height: 50px;
+       
+    }
+
 }

@@ -62,7 +62,7 @@ class TextScramble {
 // ——————————————————————————————————————————————————
 
 const phrases = [
-    "TechSrijan'22"];
+    "techSrijan'22"];
 
 
 const el = document.querySelector('.head_text');
