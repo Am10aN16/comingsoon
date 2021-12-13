@@ -17,9 +17,11 @@
   }  */
   
   #particles-js{
-    height: 100vh;
+    height: 65vh;
     display: flex;
-    position: absolute;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
 
   }
 
