@@ -75,11 +75,13 @@ img{
    outline-width: 27px;
   }
 #reddit{
-    color: #FF5700;
+    color: rgba(22, 8, 8, 0.863);
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 50%;
     display: inline-block;
-    line-height: 20px;
+    height: 30px;
+    width: 30px;
+
 }
 .profileText{
     margin-bottom: 20px;
