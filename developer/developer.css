@@ -3,26 +3,14 @@
     margin: 0;
     font-family: 'Cardo', serif;
 }
-/* .backimg {
-    background-image:url("5039684.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position:top;
-    min-height:100vh;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    font-family: 'Poppins', sans-serif;
-    position: relative;
-  }  */
-  
+
   #particles-js{
     height: 65vh;
     display: flex;
     position: fixed;
     width: 100%;
     overflow: hidden;
-
+    margin-top: 0;
   }
 
 .backimg{
