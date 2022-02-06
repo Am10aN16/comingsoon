@@ -32,6 +32,8 @@ p {
   user-select: none;
 }
 
+/* media query added */
+
 @media (max-width: 992px) {
   p {
     font-family: "Orbitron", sans-serif;
