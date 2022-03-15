@@ -50,3 +50,16 @@ p {
     letter-spacing: 0.15em;
   }
 }
+@media (max-width: 640px) {
+
+  body{
+    overflow-y: scroll;
+  }
+  p {
+    font-family: "Orbitron", sans-serif;
+    font-size: 30px;
+    margin-top: 1rem;
+    letter-spacing: 0.15em;
+  }
+}
+
