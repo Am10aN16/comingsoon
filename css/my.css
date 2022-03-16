@@ -118,6 +118,16 @@ body {
   height: 250px;
 }
 
+.row #fb{
+  text-decoration: none !important;
+}
+.row #insta{
+  text-decoration: none !important;
+}
+.row #mail{
+  text-decoration: none !important;
+}
+
 /* TIMER CSS */
 .countdown-container {
   display: flex;
